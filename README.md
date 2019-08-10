@@ -5,7 +5,14 @@ Permite realizar las funcionalidades de un CRUD tradicional, tales como Crear, L
 
 ## Uso
 
-Ejecutar el comando: 
+Solo en la primera ejecución, usar el comando:
+
+```
+npm install
+docker-compose up --build
+```
+
+Utilizar el siguiente comando para ejecutarlo con normalidad: 
 
 ```
 docker-compose up
