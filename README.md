@@ -8,7 +8,6 @@ Permite realizar las funcionalidades de un CRUD tradicional, tales como Crear, L
 Solo en la primera ejecución, usar el comando:
 
 ```
-npm install
 docker-compose up --build
 ```
 
