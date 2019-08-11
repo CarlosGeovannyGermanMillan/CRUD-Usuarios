@@ -1,8 +1,8 @@
 INSERT INTO mysql.user (Host, User, Password) VALUES ('%', 'root', password('root'));
 GRANT ALL ON *.* TO 'root'@'%' WITH GRANT OPTION;
-CREATE DATABASE `coppel`;
+CREATE DATABASE IF NOT EXISTS `coppel`;
 USE `coppel`;
-CREATE TABLE `USUARIOS` (
+CREATE TABLE IF NOT EXISTS `USUARIOS` (
     `id` INT NOT NULL AUTO_INCREMENT,
     `nombre` VARCHAR(45) NOT NULL,
     `apellidos` VARCHAR(45) NOT NULL,
